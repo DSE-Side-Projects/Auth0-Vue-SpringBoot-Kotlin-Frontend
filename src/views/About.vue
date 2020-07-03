@@ -25,7 +25,7 @@ export default {
     callAPI() {
       axios({
         method: "GET",
-        url: "http://localhost:8888/helloworld",
+        url: `${process.env.VUE_APP_SECRET_AUDIENCE}/helloworld`,
         headers: { authorization: `Bearer ${this.accessToken}` }
       })
         .then(resp => {
