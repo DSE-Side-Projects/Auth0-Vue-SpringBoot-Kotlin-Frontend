@@ -1,4 +1,4 @@
-# Auth0-Vue-SpringBoot-Kotlin-Backend
+# Auth0-Vue-SpringBoot-Kotlin-Frontend
 Implementation of [Auth0 Blog Post](https://auth0.com/blog/vuejs-spring-boot-kotlin-and-graphql-building-modern-apps-part-1/) by Vladimir Fomene
 
 This repo just contains the frontend. The associated frontend that calls the API can be found [here](https://github.com/egconley/Auth0-Vue-SpringBoot-Kotlin-Backend/tree/master).
