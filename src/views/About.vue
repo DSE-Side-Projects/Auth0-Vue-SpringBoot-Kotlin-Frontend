@@ -25,7 +25,7 @@ export default {
     callAPI() {
       axios({
         method: "GET",
-        url: "https://vue-spring-kotlin-graphql-back.herokuapp.com/helloworld",
+        url: process.env.VUE_APP_BACKEND_URL,
         headers: { authorization: `Bearer ${this.accessToken}` }
       })
         .then(resp => {
