@@ -23,5 +23,5 @@ This repo just contains the frontend. The associated frontend that calls the API
 3. To Heroku, add the the environment variables above under config variables.
     
 ## Screenshots
-![](home.png)
-![](about.png)
+![](./home.png)
+![](./about.png)
